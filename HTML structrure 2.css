@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section with Navigation Bar -->
+    <header>
+        <div class="container">
+            <h1>Welcome to My Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <article>
+                <h2>Home</h2>
+                <p>Welcome to my personal website! I'm glad you're here. Feel free to browse around and get to know more about me, my services, and how you can contact me.</p>
+            </article>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <article>
+                <h2>About Me</h2>
+                <p>Hi, I'm [Your Name]. I'm a passionate web developer with a focus on front-end development. I love to create engaging, user-friendly websites. Here's a little more about me:</p>
+
+                <h3>Personal Information</h3>
+                <ul>
+                    <li><strong>Name:</strong> [Your Name]</li>
+                    <li><strong>Location:</strong> [Your Location]</li>
+                    <li><strong>Profession:</strong> Web Developer</li>
+                    <li><strong>Hobbies:</strong> Coding, Photography, Traveling</li>
+                </ul>
+
+                <h3>Skills & Expertise</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Vue.js</li>
+                    <li>Responsive Web Design</li>
+                    <li>Version Control (Git, GitHub)</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <article>
+                <h2>My Services</h2>
+                <p>I offer a range of web development services to help you build your online presence:</p>
+                <ul>
+                    <li><a href="#web-development">Custom Website Development</a></li>
+                    <li><a href="#ecommerce">E-Commerce Solutions</a></li>
+                    <li><a href="#seo">SEO Optimization</a></li>
+                    <li><a href="#consulting">Consulting & Mentoring</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <article>
+                <h2>Contact Me</h2>
+                <p>If you have any questions or would like to work with me, feel free to get in touch:</p>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:yourname@example.com">yourname@example.com</a></li>
+                    <li><strong>Phone:</strong> (555) 123-4567</li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/yourname" target="_blank">github.com/yourname</a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
